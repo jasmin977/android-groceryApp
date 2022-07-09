@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+
+    tools:context=".Home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/magasin"
+        android:alpha="0.95"/>
+
+
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_btn"
+    android:layout_marginTop="450dp"
+        android:layout_marginLeft="70dp"
+        android:text="Start shopping"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#4BB510"
+        app:icon="@drawable/ic_baseline_shopping_cart_24" />
+
+
+
+
+</RelativeLayout>

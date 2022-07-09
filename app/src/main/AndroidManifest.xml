@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.project_application">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project_application">
+        <activity android:name=".splash"/>
+
+        <activity android:name=".Resultat" />
+        <activity android:name=".Show_product" />
+        <activity android:name=".Update_product" />
+        <activity android:name=".Add_product" />
+        <activity android:name=".ScanCodeActivity" />
+        <activity android:name=".Register" />
+        <activity android:name=".Scan_product" />
+        <activity android:name=".Home" />
+        <activity android:name=".Product_items" />
+        <activity android:name=".Login_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CaptureAct"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        tools:ignore="ManifestOrder" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+</manifest>

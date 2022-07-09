@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9F19E"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Scan_product">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Add more products to the cart"
+    android:textSize="25dp"
+    android:layout_marginBottom="20dp"
+    >
+
+</TextView>
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/cart"
+
+        >
+
+        <Button
+            android:id="@+id/scan_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:background="@drawable/round_btn"
+
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:backgroundTint="#F33330"
+            app:icon="@drawable/ic_plus"
+            app:iconSize="50dp"
+            app:iconTint="#FAFAFA" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR get your final result"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/res_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_btn"
+        android:text="Facture"
+        android:textSize="30sp"
+
+        android:textStyle="bold"
+        app:backgroundTint="#1AA121" />
+</LinearLayout>
